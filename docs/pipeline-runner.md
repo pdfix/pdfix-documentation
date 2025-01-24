@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # PDFix Pipeline Runner
 
 - [PDFix Pipeline Runner](#pdfix-pipeline-runner)
@@ -44,7 +48,7 @@ Please contact support for the download link.
 
 Minimal pipeline-runner execution:
 ```bash
-./pipeline-runner -p <pipeline.json> 
+./pipeline-runner -p "path/to/pipeline.json"
 ```
 
 ### Parameter Description
@@ -158,7 +162,7 @@ Environment variables allow dynamic configuration of the pipeline runner without
 
 This pipeline performs the following steps:
 1. **OCR Document** using the Docker image `pdfix/ocr-tesseract`.
-2. **Detect Document Language** with the Docker image `pdfix/lang-detect`.
+2. **Detect Document Language** with the Docker image `pdfix/detect-language`.
 3. **Autotag PDF** using the locally installed PDFix SDK.
 4. **Set PDF/UA Standard** in the document metadata with the locally installed PDFix SDK.
 
@@ -206,7 +210,7 @@ This pipeline performs the following steps:
         }
       ],
       "path": "",
-      "program": "docker run --platform linux/amd64 -v ${working_directory}:/data -w /data --rm pdfix/lang-detect:v0.4.4 --name \"${license_name}\" --key \"${license_key}\" lang-detect -i \"/data/${input_pdf}\" -o \"/data/${output_pdf}\"",
+      "program": "docker run --platform linux/amd64 -v ${working_directory}:/data -w /data --rm pdfix/lang-detect:v0.4.4 --name \"${license_name}\" --key \"${license_key}\" detect-language -i \"/data/${input_pdf}\" -o \"/data/${output_pdf}\"",
       "returnCodes": [ 0 ],
       "id": "language_detection",
       "name": "language_detection",
