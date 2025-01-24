@@ -8,7 +8,11 @@ theme: minima
 
 # Inklúzia bočného panela
 include:
-  - _includes/sidebar.html
+  - _includes/sidebar.md
+markdown: kramdown
+
+exclude:
+  - vendor
 
 # Nastavenie navigácie
 nav:
