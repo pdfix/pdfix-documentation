@@ -26,15 +26,12 @@
          {% endfor %}
 
          <hr>
-         <h3>Obsah stránky</h3>
-         <ul>
-           {% assign headers = page.content | split: '<h2' %}
-           {% for header in headers offset: 1 %}
-             {% assign title = header | split: '</h2>' | first | split: '>' | last %}
-             {% assign anchor = title | slugify %}
-             <li><a href="#{{ anchor }}">{{ title }}</a></li>
-           {% endfor %}
-         </ul>         
+         {% assign headers = page.content | split: '<h2' %}
+         {% for header in headers offset: 1 %}
+           {% assign title = header | split: '</h2>' | first | split: '>' | last %}
+           {% assign anchor = title | slugify %}
+           <a class="sidebar-nav-item" href="#{{ anchor }}">{{ title }}</a>
+         {% endfor %}
      
          <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
          <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
