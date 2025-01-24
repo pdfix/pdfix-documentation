@@ -22,4 +22,8 @@ version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
 
 posts:
-  - post/2013-12-13-why-jekyll.md
+  - title:           'Introducing Lanyon'
+    date:            2014-01-01
+    description:     'A Jekyll theme that places the utmost gravity on content with a hidden drawer.'
+    image:           '/assets/img/sample.jpg'
+    url:             '/posts/2020-01-01-introducing-lanyon.html'
