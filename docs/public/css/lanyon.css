@@ -41,16 +41,74 @@ body {
 }
 
 html {
-  font-family: "Segoe UI", "Noto Sans", Georgia, "Times New Roman", serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #24292f;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #313131;
-  letter-spacing: -.025rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
+h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+h2 {
+  font-size: 1.75em;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* Paragraphs */
+p {
+  margin: 10px 0;
+  color: #586069;
+}
+
+/* Links */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks */
+code {
+  font-family: Consolas, Monaco, monospace;
+  background-color: #f6f8fa;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+pre code {
+  display: block;
+  padding: 16px;
+  margin: 0;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 0.875em;
+  color: #24292f;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+}
 
 /*
  * Wrapper
@@ -148,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: visible;
   overflow-y: auto;
-  font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -363,7 +421,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
