@@ -3,7 +3,7 @@ title:               Lanyon
 tagline:             'A Jekyll theme'
 description:         'desc'
 url:                 
-baseurl:             ''
+baseurl:             '/'
 paginate:            5
 permalink:           pretty
 
