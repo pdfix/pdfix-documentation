@@ -117,5 +117,5 @@ Following example defines a template rule for defining the H1 heading by font si
 
 ## Links and Resources
 
-- [PDF Template documentation](https://github.com/pdfix/pdfix_sdk_builds/blob/main/pdf_template.md)
+- [PDF Template documentation](template-documentation.md)
 - [PDF Template Examples](template-examples.md)
