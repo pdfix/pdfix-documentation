@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Template Configuration Examples
 
 - [Template Configuration Examples](#template-configuration-examples)

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Template Configuration Documentation
 
 - [Template Configuration Documentation](#template-configuration-documentation)

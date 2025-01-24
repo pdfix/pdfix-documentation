@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Using Environment Variables with Pipeline Runner
 
 - [Using Environment Variables with Pipeline Runner](#using-environment-variables-with-pipeline-runner)
