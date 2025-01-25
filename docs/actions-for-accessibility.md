@@ -4,8 +4,19 @@ layout: page
 
 # PDFix Actions for Accessibility
 
+- [PDFix Actions for Accessibility](#pdfix-actions-for-accessibility)
+  - [Make Accessible for Non-Tagged Documents](#make-accessible-for-non-tagged-documents)
+    - [Executing the Make Accessible Command](#executing-the-make-accessible-command)
+    - [Customizing the Make Accessible Command](#customizing-the-make-accessible-command)
+    - [Executing with a Custom Configuration](#executing-with-a-custom-configuration)
+    - [Example of a Custom Command to Auto-Tag, Set Document Language, and Apply PDF/UA Identifier](#example-of-a-custom-command-to-auto-tag-set-document-language-and-apply-pdfua-identifier)
+  - [Fixing Accessibility Issues in Tagged PDF Documents](#fixing-accessibility-issues-in-tagged-pdf-documents)
+    - [Example: Fixing Missing Document Title, Annotation Contents, Lists, and Invalid MCIDs](#example-fixing-missing-document-title-annotation-contents-lists-and-invalid-mcids)
+  - [Code Examples](#code-examples)
+
+
 PDFix Actions for accessibility provide a flexible, no-code method for fixing accessibility issues using batch commands.
-For more information about batch commands, please follow [pdf-actions.md](pdf-actions.md).
+For more information about batch commands, please follow [actions.md](actions.md).
 
 Users can assemble a set of actions in a JSON file. These actions are executed sequentially on an opened PDF document.
 
@@ -41,7 +52,7 @@ Some documents require a customized set of actions. For example, if the document
 - Contains transparent elements → flattening form XObjects may visually alter the document.
 - Is a PDF 2.0 file → updating metadata must be tailored for this version.
 
-Users can create a custom JSON file with appropriate actions and parameters. A list of all available actions is provided here [pdf-actions.md](pdf-actions.md).
+Users can create a custom JSON file with appropriate actions and parameters. A list of all available actions is provided here [actions.md](actions.md).
 
 ### Executing with a Custom Configuration
 
@@ -186,7 +197,7 @@ The approach remains the same as with the **Make Accessible** command, excluding
 }
 ```
 
-For more available actions and parameter options, check [pdf-actions.md](pdf-actions.md).
+For more available actions and parameter options, check [actions.md](actions.md).
 
 ## Code Examples
 
