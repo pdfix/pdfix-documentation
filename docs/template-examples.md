@@ -1,10 +1,11 @@
 ---
 layout: page
+order: 8
 ---
 
-# Template Configuration Examples
+# Template Examples
 
-- [Template Configuration Examples](#template-configuration-examples)
+- [Template Examples](#template-examples)
   - [Thresholds and Triggers](#thresholds-and-triggers)
     - [Create Tables Only with Table Borders](#create-tables-only-with-table-borders)
     - [Tag Area with Forms (Widgets) in the Table Layout](#tag-area-with-forms-widgets-in-the-table-layout)

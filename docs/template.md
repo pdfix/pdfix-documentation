@@ -2,9 +2,9 @@
 layout: page
 ---
 
-# Template Configuration Documentation
+# Template Documentation
 
-- [Template Configuration Documentation](#template-configuration-documentation)
+- [Template Documentation](#template-documentation)
   - [Key Features of Templates](#key-features-of-templates)
   - [Rules and Conditions](#rules-and-conditions)
     - [Object Identification](#object-identification)
