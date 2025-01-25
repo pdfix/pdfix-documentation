@@ -2,9 +2,9 @@
 layout: page
 ---
 
-# Using Environment Variables with Pipeline Runner
+# Pipeline Runner - Environment Variables 
 
-- [Using Environment Variables with Pipeline Runner](#using-environment-variables-with-pipeline-runner)
+- [Pipeline Runner - Environment Variables](#pipeline-runner---environment-variables)
   - [Benefits of Using Environment Variables](#benefits-of-using-environment-variables)
   - [Java Example for Running Pipeline with Environment Variables](#java-example-for-running-pipeline-with-environment-variables)
     - [Windows Example](#windows-example)
