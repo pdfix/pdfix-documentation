@@ -16,7 +16,7 @@ layout: page
 
 
 PDFix Actions for accessibility provide a flexible, no-code method for fixing accessibility issues using batch commands.
-For more information about batch commands, please follow [actions.md](actions.md).
+For more information about batch commands, please follow [actions]([actions.md](https://pdfix.net/pdfix-batch-commands/)).
 
 Users can assemble a set of actions in a JSON file. These actions are executed sequentially on an opened PDF document.
 
@@ -52,7 +52,7 @@ Some documents require a customized set of actions. For example, if the document
 - Contains transparent elements → flattening form XObjects may visually alter the document.
 - Is a PDF 2.0 file → updating metadata must be tailored for this version.
 
-Users can create a custom JSON file with appropriate actions and parameters. A list of all available actions is provided here [actions.md](actions.md).
+Users can create a custom JSON file with appropriate actions and parameters. A list of all available actions is provided here [actions](https://pdfix.net/pdfix-batch-commands/).
 
 ### Executing with a Custom Configuration
 
@@ -197,7 +197,7 @@ The approach remains the same as with the **Make Accessible** command, excluding
 }
 ```
 
-For more available actions and parameter options, check [actions.md](actions.md).
+For more available actions and parameter options, check [actions](https://pdfix.net/pdfix-batch-commands/).
 
 ## Code Examples
 
