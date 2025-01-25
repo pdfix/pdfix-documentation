@@ -4,6 +4,13 @@ layout: page
 
 # PDFix Actions for Accessibility
 
+- [PDFix Actions for Accessibility](#pdfix-actions-for-accessibility)
+  - [Make Accessible for non-tagged documents](#make-accessible-for-non-tagged-documents)
+    - [Customizing the Make Accessible command](#customizing-the-make-accessible-command)
+  - [Fix Accessibility Issues in tagged PDF documents](#fix-accessibility-issues-in-tagged-pdf-documents)
+  - [Code examples](#code-examples)
+
+
 PDFix Actions for Accessibility provide a flexible no-code method for fixing accessibility issues using batch commands.
 For more information about batch commands please follow [here](#).
 

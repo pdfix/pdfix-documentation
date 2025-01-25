@@ -1,6 +1,6 @@
 # Setup
-title:               Lanyon
-tagline:             'PDFix Documentation'
+title:               PDFix
+tagline:             'Documentation'
 description:         ''
 url:                 
 baseurl:             '/'
@@ -17,7 +17,7 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  
+
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
